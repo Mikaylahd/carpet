@@ -1,5 +1,15 @@
+
+#A quote is for only one room and one type of carpet. The options are berber, texture, or pattern. The respective prices per square foot are listed below.
+#A quote has or more options. The options are 10 year warranty, delivery, installation, and stain guard. Their respective prices, which are a flat rate, i.e. not dependent on square footage, are listed below.#Ada's Flooring is running a special on free installation for customers with the discount code "ADAROCKS". So, if a customer has a coupon code, don't include the installation cost in the quote total.
+#The function called `carpet_quote_estimator` accepts four parameters:
+#room`, a list of numbers representing the room's length and width in feet
+#carpet_type`, a string representing the type of carpeting
+#options`, a list of strings, representing 0 or more options 
+#promo_code`, a string representing the discount code
+#he function must print the price of the order in dollars (i.e., with two decimal places). Refer to the example output for the specific formatting.
+
 Room = {'length':10, 'width':10}
-#Options = {'warranty': 100, 'delivery' : 35, 'first_installation': 75, 'stain_gaurd': 30}
+Options = {'warranty': 100, 'delivery' : 35, 'first_installation': 75, 'stain_gaurd': 30}
 warranty = 100
 delivery =35
 first_installation = 75
